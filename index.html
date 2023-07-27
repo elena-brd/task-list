@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Task List Demo</title>
+</head>
+
+<body>
+
+    <header id="main-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="title">
+                    <h1>Task List Demo</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <seaction id="card">
+        <div class="container">
+            <div class="card-info">
+                <h2><i class="fa-solid fa-check"></i> Add Task</h2>
+                <form action="#" id="form-input">
+                    <input type="text" id="item-input">
+                    <button type="submit" id="btn-submit" class="btn">Submit</button>
+                </form>
+
+                <h3>Tasks</h3>
+                <ul id="item-list">
+                    <li class="item-group-list">Morning meditation
+                        <button class="btn-delete" id="btn-delete">
+                            <i class="fa-solid fa-xmark delete"></i>
+                        </button>
+                    </li>
+                    <li class="item-group-list">Launch next home page
+                        <button class="btn-delete" id="btn-delete">
+                            <i class="fa-solid fa-xmark delete"></i>
+                        </button>
+                    </li>
+                    <li class="item-group-list">Review Sara's blog
+                        <button class="btn-delete" id="btn-delete">
+                            <i class="fa-solid fa-xmark delete"></i>
+                        </button>
+                    </li>
+                    <li class="item-group-list">Medical appointment
+                        <button class="btn-delete" id="btn-delete">
+                            <i class="fa-solid fa-xmark delete"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </seaction>
+
+
+    <script src="https://kit.fontawesome.com/f0b3d42456.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
